@@ -1,0 +1,71 @@
+.hero {
+}
+
+.hero__wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+
+.hero__content {
+}
+.hero__column {
+  z-index: 2;
+  position: relative;
+}
+.hero__title {
+  max-width: 597px;
+  font-size: 72px;
+  line-height: 98px;
+  color: #fff;
+  padding: 63px 0 0 0;
+}
+.hero__desc {
+  margin: 1px 0 0 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+.hero__btn {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24.5px;
+  font-weight: 700;
+  background: #9d5cd0;
+  border: none;
+  border-radius: 100px;
+  padding: 22.5px 35px;
+  margin: 92px 0 122px 0;
+  cursor: pointer;
+}
+
+.hero__btn:hover {
+  border: 3px solid #d1a9f0;
+  border-radius: 100px;
+  padding: -3px;
+}
+
+.swiper-container {
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 800px;
+}
+
+.swiper-slide__1 {
+  background: url("../img/hero_background1.webp") center center no-repeat;
+  background-size: cover;
+}
+
+.swiper-slide__2 {
+  background: url("../img/hero_background2.webp") center center no-repeat;
+  background-size: cover;
+}
+
+.swiper-slide__3 {
+  background: url("../img/hero_background3.webp") center center no-repeat;
+  background-size: cover;
+}

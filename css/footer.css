@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  background: #000;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+}
+.footer__img {
+}
+.footer__media {
+}
+.media {
+}
+.media__link {
+  margin: 0 20px 0 0;
+}
+.media__link:last-child {
+  margin: 0;
+}
+.media__img {
+}

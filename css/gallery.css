@@ -1,0 +1,68 @@
+.gallery {
+  background: url("../img/gallary_background.webp") center center no-repeat;
+  width: 100%;
+  padding: 80px 0;
+}
+.gallery__content {
+  display: flex;
+  height: 435px;
+  justify-content: space-between;
+}
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery__title {
+  display: block;
+  color: #fff;
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+.gallery__column-top {
+  display: flex;
+  flex-direction: column;
+}
+.gallery__filter {
+  color: #fff;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  line-height: 32px;
+}
+.gallery__text {
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  max-width: 400px;
+  padding: 3px 0 5px 16px;
+}
+.gallery__column-bot {
+  display: flex;
+}
+.gallery__period {
+}
+.period {
+}
+.period__time {
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+}
+.gallery__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery__photo {
+}
+.gallery__img {
+  margin: 0 50px 0 0;
+}
+.gallery__img:last-child {
+  margin: 0;
+}

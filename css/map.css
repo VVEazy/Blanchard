@@ -1,0 +1,13 @@
+.map {
+}
+.container-1920 {
+}
+.map__content {
+}
+.yandex-map {
+}
+#map {
+}
+[class*="ground-pane"] {
+  filter: grayscale(1);
+}

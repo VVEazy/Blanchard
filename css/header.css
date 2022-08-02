@@ -1,0 +1,135 @@
+.header {
+  position: relative;
+  z-index: 2;
+}
+.header__topbar {
+  background-color: #000;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header__logo {
+  margin: 0 170px 0 0;
+}
+.logo {
+}
+.logo__link {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  margin: 0 62px 0 0;
+}
+.menu__item:last-child {
+  margin: 0;
+}
+.menu__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.menu__link:hover {
+  color: #c283f3;
+}
+.menu__link:focus {
+  padding: 2px 6px 8px 6px;
+  background: #7943a4;
+  color: #fff;
+  margin: -2px -6px -8px -6px;
+}
+.menu__linl:active {
+  color: #7943a4;
+}
+
+.header__loggin {
+  margin: 0 0 0 421px;
+}
+.loggin {
+}
+.loggin__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24.5px;
+  list-style: none;
+  text-decoration: none;
+  background: url("../img/strelochka.svg") left center no-repeat;
+  padding-left: 21px;
+  width: 100%;
+  text-align: center;
+}
+.header__bottombar {
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+.bottombar {
+}
+.bottombar__content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottombar__list {
+  display: flex;
+  padding: 23px 0 28px 0;
+}
+.bottombar__item {
+  display: flex;
+  align-items: center;
+  background: url("../img/strelochka_niz.svg") right center no-repeat;
+  background-size: 12px;
+  padding-right: 15px;
+  margin: 0 96px 0 0;
+}
+.bottombar__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  /* margin: 0 96px 0 0; */
+}
+.bottombar__link:focus {
+  background: #7943a4;
+  padding: 1px 22px 8px 6px;
+  margin: -1px -22px -8px -6px;
+}
+.bottombar__link:hover {
+  color: #9d5cd0;
+  background: none;
+}
+.bottombar__link:active {
+  color: #7943a4;
+  background: none;
+}
+.bottombar__search {
+  display: flex;
+  text-align: center;
+  max-width: 251px;
+  width: 100%;
+}
+.search {
+}
+.search__btn {
+  background: none;
+  cursor: pointer;
+}
+
+.search__text {
+  background: none;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 0 0 0 9px;
+}
