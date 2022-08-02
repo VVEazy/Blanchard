@@ -29,23 +29,6 @@ function init() {
 
 // SWIPER
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const swiper = new Swiper(".swiper-container", {
-//     slidesPerView: 1,
-//     loop: true,
-//     // пагинация
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//     // навигация
-//     navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//     },
-//   });
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
   const swiper = new Swiper(".swiper-container", {
     slidesPerView: 1,
@@ -79,33 +62,8 @@ document.querySelectorAll(".tabs-nav__btn").forEach(function (tabsBtn) {
   });
 });
 
+// ACCORDION
+
 $(".accordion").accordion({
   heightStyle: "content",
 });
-
-// document
-//   .querySelector(".header__burger-js")
-//   .addEventListener("click", function (e) {
-//     console.log(this);
-//     this.classList.toggle("burger-active");
-
-//     document
-//       .querySelector(".header__nav")
-//       .classList.toggle("header__nav-active");
-//   });
-
-// document
-//   .querySelector(".search__btn_lupa-js")
-//   .addEventListener("click", function (e) {
-//     this.classList.add("active");
-
-//     document.querySelector(".search__wrapper").classList.add("active");
-//   });
-
-// document
-//   .querySelector(".search__btn_close-js")
-//   .addEventListener("click", function (e) {
-//     document.querySelector(".search__btn_lupa-js").classList.remove("active");
-
-//     document.querySelector(".search__wrapper").classList.remove("active");
-//   });

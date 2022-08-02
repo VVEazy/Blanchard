@@ -124,6 +124,7 @@
 .search__btn {
   background: none;
   cursor: pointer;
+  border: none;
 }
 
 .search__text {
