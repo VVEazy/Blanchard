@@ -64,10 +64,8 @@
   padding: 41px 0;
   margin: 0;
 
-  border-top: 1px solid #cacaca;
-}
-.accordion__title:nth-last-child(2) {
-  /* border-bottom: 1px solid #cacaca; */
+  /* border-top: 1px solid #cacaca; */
+  border-radius: 0;
 }
 .accordion__title_background {
 }
@@ -143,10 +141,9 @@
 .empty__column .empty__link {
   color: #9d5cd0;
 }
-
 .catalog__accordion .ui-state-active {
-  border-top: 1px solid #7943a4;
-  border-bottom: 1px solid #7943a4;
+  /* border-top: 1px solid #7943a4;
+  border-bottom: 1px solid #7943a4; */
   color: #7943a4;
 }
 
