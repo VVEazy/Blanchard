@@ -27,24 +27,18 @@ function init() {
   myMap.geoObjects.add(myPlacemark);
 }
 
-// SWIPER
 
-document.addEventListener("DOMContentLoaded", function () {
-  const swiper = new Swiper(".swiper-container", {
-    slidesPerView: 1,
-    loop: true,
-    // пагинация
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    // навигация
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+	// SWIPER
+
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 0,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
     },
   });
-});
+
 
 document.querySelectorAll(".tabs-nav__btn").forEach(function (tabsBtn) {
   tabsBtn.addEventListener("click", function (e) {
