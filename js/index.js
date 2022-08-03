@@ -37,8 +37,8 @@ function init() {
       delay: 2500,
       disableOnInteraction: false,
     },
-  });
-
+  }); 
+ 
 
 document.querySelectorAll(".tabs-nav__btn").forEach(function (tabsBtn) {
   tabsBtn.addEventListener("click", function (e) {
