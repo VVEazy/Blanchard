@@ -29,7 +29,6 @@ function init() {
 
 
 	// SWIPER
-
   var swiper = new Swiper(".mySwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -38,7 +37,6 @@ function init() {
       disableOnInteraction: false,
     },
   }); 
- 
 
 document.querySelectorAll(".tabs-nav__btn").forEach(function (tabsBtn) {
   tabsBtn.addEventListener("click", function (e) {
