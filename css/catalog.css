@@ -57,16 +57,21 @@
 }
 .accordion__title {
 }
-.catalog__accordion .accordion__title {
+.accordion .accordion__title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  padding: 41px 0;
+  padding: 0;
   margin: 0;
-
-  /* border-top: 1px solid #cacaca; */
-  border-radius: 0;
 }
+.catalog__accordion .accordion__title {
+  border-top: 1px solid #cacaca;
+}
+
 .accordion__title_background {
 }
 .accordion__wrapper {
@@ -142,8 +147,8 @@
   color: #9d5cd0;
 }
 .catalog__accordion .ui-state-active {
-  /* border-top: 1px solid #7943a4;
-  border-bottom: 1px solid #7943a4; */
+  border-top: 1px solid #7943a4;
+  border-bottom: 1px solid #7943a4;
   color: #7943a4;
 }
 
@@ -158,18 +163,47 @@
   border: none;
 }
 .ui-icon {
-  background: none;
-  width: 0;
-  height: 0;
+  background: url("/img/strelochka_niz.svg") center center no-repeat;
+  background-color: #ececec;
+  border: 2px solid #ececec;
+  border-radius: 100px;
+  width: 48px;
+  height: 48px;
 }
-.ui-state-hover .ui-icon {
-  background: none;
+
+.accordion__title:hover {
+  color: #9d5cd0;
+}
+.accordion__title:hover .ui-icon {
+  background: url("/img/strelochka_niz.svg") center center no-repeat;
+  background-color: #d1a9f0;
+}
+.accordion__title:default .ui-icon {
+  background: url("/img/strelochka_niz.svg") center center no-repeat;
+  background-color: #d1a9f0;
+}
+.ui-state-active .ui-icon,
+.ui-icon {
+  margin: 32px 0;
+}
+
+.ui-state-active .ui-icon {
+  border: 2px solid #9d5cd0;
+  background: url("/img/strelochka_niz.svg") center center no-repeat;
+  background-color: #d1a9f0;
+  transform: rotate(180deg);
 }
 .ui-accordion .ui-accordion-header {
   padding: 0;
   margin: 0;
-  font-size: 24px;
 }
 .ui-widget-content {
   border: none;
+}
+.ui-accordion-header-icon .ui-icon .ui-icon-triangle-1-e {
+  background-color: #ececec;
+}
+
+.accordion__title:nth-last-child(2) {
+  border-bottom: 1px solid #cacaca;
 }
